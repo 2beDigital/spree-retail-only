@@ -1,7 +1,14 @@
 Deface::Override.new(:virtual_path  => "spree/admin/products/_form",
-                     :insert_before => "ul#shipping_specs",
-                     :text          => " <div class='field'>
-        								<%= f.check_box :retail_only, :style => 'width:auto;' %>
-        								<%= f.label :retail_only, Spree.t(:retail_only) %>
-      									</div>",
+                     :insert_after => "[data-hook='admin_product_form_promotionable']",
+                     :text          => "<div data-hook='admin_product_form_retail'>
+                                        <%= f.field_container :retail_only do %>
+                                                <%= f.label :retail_only do %>
+                                                  <%= f.check_box :retail_only %> <%= Spree.t(:retail_only) %>
+                                                <% end %>
+                                        <% end %>
+                                        </div>",
                      :name          => "products_retail_only")
+
+
+
+
