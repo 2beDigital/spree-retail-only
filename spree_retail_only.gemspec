@@ -7,9 +7,9 @@ Gem::Specification.new do |s|
   s.description = 'Creates a retail role and a checkbox on all products to make them avaiblable for retail only.'
   s.required_ruby_version = '>= 2.0.0'
 
-  s.author    = 'Simon Træls Ravn'
-  s.email     = 'cs2@cs2.dk'
-  s.homepage  = 'http://www.cs2.dk'
+  s.author    = '2BeDigital'
+  s.email     = 'support@2BeDigital.com'
+  s.homepage  = 'http://www.2BeDigital.com'
 
   #s.files       = `git ls-files`.split("\n")
   #s.test_files  = `git ls-files -- {test,spec,features}/*`.split("\n")
@@ -17,6 +17,7 @@ Gem::Specification.new do |s|
   s.requirements << 'none'
 
   s.add_dependency 'spree_core', '~> 2.2'
+  s.add_dependency 'spree_static_content', '>= 2.3.0'
 
   s.add_development_dependency 'capybara', '~> 2.1'
   s.add_development_dependency 'coffee-rails'
