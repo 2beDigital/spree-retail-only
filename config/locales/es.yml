@@ -4,3 +4,5 @@
 es:
   spree:
     retail_only: "Sólo para retail"
+  ## Retailer ##
+  applyforretailer: "Acceso Distribuidores"
