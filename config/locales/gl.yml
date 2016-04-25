@@ -7,3 +7,7 @@ gl:
   ## Retailer ##
   applyforretailer: "Acceso a profesionais"
   applyforretailer_info: "A súa conta será permanentemente activado xa validados os datos."
+  confirm_retailer: "A súa conta Como unha venda polo miúdo foi éxito de verificación"
+  info_retailer: "Benvido! Se inscribiu con éxito. En 24 horas de traballo, imos activar a súa conta unha vez que os datos facilitados son validar."
+  info_account_retail: "Información sobre a conta"
+  confirm_account_retail: "Confirmación de conta"

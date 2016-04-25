@@ -7,3 +7,7 @@ es:
   ## Retailer ##
   applyforretailer: "Acceso Distribuidores"
   applyforretailer_info: "Tu cuenta será activada definitivamente una vez validados tus datos."
+  confirm_retailer: "Tu cuenta como Proveedor ha sido validada satisfactoriamente."
+  info_retailer: "Bienvenido! Te has dado de alta satisfactoriamente. En un plazo de 24 horas laborales, activaremos su cuenta una vez validados los datos facilitados."
+  info_account_retail: "Información de cuenta"
+  confirm_account_retail: "Confirmación de cuenta"

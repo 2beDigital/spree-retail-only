@@ -11,6 +11,9 @@ module Spree
           if roles
             @user.spree_roles = roles.reject(&:blank?).collect{|r| Spree::Role.find(r)}
             @user.applyforretailer =  (@user.has_spree_role? :retail) ? true : false
+            if @user.applyforretailer
+              Spree::UserMailer.confirm_account_retail(@user).deliver
+            end
             @user.save
           end
           flash.now[:success] = Spree.t(:account_updated)
