@@ -1,3 +1,8 @@
 <!-- replace "erb[loud]:contains('link_to order.number, edit_admin_order_path(order)')" -->
 <!-- disabled -->
-<%= link_to order.number, edit_admin_order_path(order) %> <% if order.products.first.present? && order.products.first.retail_only %><strong>(b2b)</strong><% else %><strong>(b2c)</strong><% end %>
+<%= link_to order.number, edit_admin_order_path(order) %>
+<% if order.products.first.present? && order.products.first.retail_only %>
+    <strong>(B2B)</strong>
+<% else %>
+    <strong>(B2C)</strong>
+<% end %>
