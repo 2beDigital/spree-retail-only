@@ -4,6 +4,7 @@
 fr:
   spree:
     retail_only: "Seulement pour la vente au détail"
+    not_retail_only: "Les consommateurs domestiques"
   ## Retailer ##
   applyforretailer: "l'accès de Détail"
   applyforretailer_info: "Votre compte sera activé une fois que vos informations ont été confirmées."

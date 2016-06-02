@@ -4,6 +4,7 @@
 gl:
   spree:
     retail_only: "Só para o polo miúdo"
+    not_retail_only: "Consumidores domésticos"
   ## Retailer ##
   applyforretailer: "Acceso a profesionais"
   applyforretailer_info: "A súa conta será permanentemente activado xa validados os datos."

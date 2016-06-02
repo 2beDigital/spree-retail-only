@@ -1,6 +1,7 @@
 de:
   spree:
     retail_only: "Nur für den Einzelhandel"
+    not_retail_only: "Binnenlandse consumenten"
   ## Retailer ##
   applyforretailer: "Händler Zugang"
   applyforretailer_info: "Ihr Konto wird aktiviert, sobald Ihre Daten bestätigt wurden."
